@@ -14,6 +14,7 @@ export class Header extends Component {
     return `
     <header>
       <h1>${this.title}</h1>
+      <img class="pokemon-logo" src="public/pokemon-logo.svg" alt="Pokemon logo">
     </header>
     `;
   }
