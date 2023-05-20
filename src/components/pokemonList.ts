@@ -37,7 +37,7 @@ export class PokemonList extends Component {
   }
 
   createTemplate() {
-    console.log(this.pokemons);
+    // Console.log(this.pokemons);
     const balls = this.pokemons.results
       .map(
         (item) => `

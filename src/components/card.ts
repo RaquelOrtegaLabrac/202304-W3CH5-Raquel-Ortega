@@ -7,7 +7,7 @@ export class Card extends Component {
   constructor(selector: string) {
     super(selector);
     this.pokemon = [];
-    console.log(this.pokemon);
+    // Console.log(this.pokemon);
     this.repository = new PokeAki();
     this.handleLoad();
   }

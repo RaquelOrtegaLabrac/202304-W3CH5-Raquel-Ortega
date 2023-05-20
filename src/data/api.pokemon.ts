@@ -3,7 +3,7 @@ import { PokemonInfo } from '../model/pokemon';
 export class PokeAki {
   pokeUrl: string;
   constructor() {
-    this.pokeUrl = 'https://pokeapi.co/api/v2/pokemon?limit=150&offset=0';
+    this.pokeUrl = 'https://pokeapi.co/api/v2/pokemon?limit=649&offset=0';
   }
 
   async getAll() {
