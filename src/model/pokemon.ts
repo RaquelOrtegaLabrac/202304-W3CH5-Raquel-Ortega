@@ -1,13 +1,4 @@
-export type PokeStructure = {
-  id: string;
+export type PokemonInfo = {
   name: string;
-  image: string;
-  catchIt: boolean;
+  url: string;
 };
-
-export class Pokemon implements PokeStructure {
-  catchIt: boolean;
-  constructor(public id: string, public name: string, public image: string) {
-    this.catchIt = false;
-  }
-}
