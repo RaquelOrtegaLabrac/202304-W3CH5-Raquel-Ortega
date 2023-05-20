@@ -1,7 +1,11 @@
-import { Header } from './components/header';
-import { Footer } from './components/footer';
-import { Main } from './components/main';
+/* eslint-disable no-new */
 
-new Header('#app', '');
-new Main('#app', '');
-new Footer('#app', 'Footer');
+import { Header } from './components/header';
+import { Main } from './components/main';
+import { Card } from './components/card';
+import { Footer } from './components/footer';
+
+new Header('#app');
+new Main('#app');
+new Card('main');
+new Footer('#app', '');
