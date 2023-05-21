@@ -82,7 +82,7 @@ export class PokemonList extends Component {
           <li>
             <p>${item.name}</p>
             <img src="${item.imgUrl}" width="170" height="150">
-            <span>Combat Info</span>
+
           </li>
           `
       )
