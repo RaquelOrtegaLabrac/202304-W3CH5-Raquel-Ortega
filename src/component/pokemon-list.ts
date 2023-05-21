@@ -90,7 +90,6 @@ export class PokemonList extends Component {
 
     return `
       <section class="pokemon-list">
-      <h2>Pokedex</h2>
         <ul>${pokeList}</ul>
       </section>
     `;
