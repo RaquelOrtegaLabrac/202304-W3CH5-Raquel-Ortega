@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 import { Component } from './component';
 
 export class Header extends Component {
@@ -10,9 +12,8 @@ export class Header extends Component {
   createTemplate() {
     return `
     <header>
-
-      <img class="pokemon-logo" src="/pokemon-logo.svg" alt="Pokemon logo">
-    </header>
+      <h1><img src="./pokemon-logo.svg" alt="The Pokemon logo">
+    </header></h1>
     `;
   }
 }

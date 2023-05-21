@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Component } from './component';
 
 export class Main extends Component {
@@ -10,6 +11,7 @@ export class Main extends Component {
   createTemplate() {
     return `
     <main>
+
     </main>
     `;
   }
